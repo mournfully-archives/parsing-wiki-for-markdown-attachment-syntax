@@ -19,15 +19,15 @@ On the other hand, atleast I managed to learn a lot... maybe I'll rewrite this w
 ### goals i had going into this
 - [x] 1 cd into dataset1
 - [x] 2 read through all files
-      - [x] 2a loop through every `.md` file
-      - [x] 2b read every file
+- [x] 2a loop through every `.md` file
+- [x] 2b read every file
 - [x] 3 search for "!["
-      - 3.1 couldn't I just search for `.png` and `.jpeg` extensions? *nah too many possible extensions*
-      - 3.2 what about http and https? - how would you tell apart from references?
-      - [x] 3.3 what if there are multiple matches in a file
-      - [ ] 3.4 what if there are multiple matches in a line
-              - *i have no clue what i'm looking at now that it's been ~~a couple months~~ 20 days lol*
-              - 3.4.1 v2 if (find != rfind) then seek(find) then read(rfind) then...
-              - 3.4.2 v1 if (find != rfind) then write "\n" to (rfind_position - 1) now that they are on separate lines repeat until (find == rfind) for every line in file
+- 3.1 couldn't I just search for `.png` and `.jpeg` extensions? *nah too many possible extensions*
+- 3.2 what about http and https? - how would you tell apart from references?
+- [x] 3.3 what if there are multiple matches in a file
+- [ ] 3.4 what if there are multiple matches in a line
+- *i have no clue what i'm looking at now that it's been ~~a couple months~~ 20 days lol*
+- 3.4.1 v2 if (find != rfind) then seek(find) then read(rfind) then...
+- 3.4.2 v1 if (find != rfind) then write "\n" to (rfind_position - 1) now that they are on separate lines repeat until (find == rfind) for every line in file
 - [x] 4 print file path and if match was found or not
 - [ ] 5 print list of: * \n in ( * )
